@@ -1,0 +1,17 @@
+[package]
+name = "zeep-build-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+yaserde = "0.12"
+yaserde_derive = "0.12"
+reqwest = { version = "0.12.28", default-features = false, features = [
+    "blocking",
+    "rustls-tls",
+] }
+xml-rs = "0.8.28"
+tokio = { version = "1.49.0", features = ["full"] }
+
+[build-dependencies]
+zeep-lib = "0.2"

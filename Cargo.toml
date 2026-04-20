@@ -1,5 +1,5 @@
 [workspace]
-members = ["zeep", "zeep-lib"]
+members = ["zeep", "zeep-lib", "zeep-build-example"]
 exclude = ["examples"]
 resolver = "3"
 
